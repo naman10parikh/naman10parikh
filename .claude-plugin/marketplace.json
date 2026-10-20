@@ -1,0 +1,82 @@
+{
+  "name": "naman10parikh",
+  "owner": {
+    "name": "Naman Parikh",
+    "url": "https://github.com/naman10parikh"
+  },
+  "description": "Naman Parikh's agent-native projects: each an agent employee that owns one job.",
+  "plugins": [
+    {
+      "name": "agentdial",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/agentdial"
+      },
+      "description": "One identity for any agent across SMS, voice, email and chat apps."
+    },
+    {
+      "name": "wikimem",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/wikimem"
+      },
+      "description": "Self-improving memory for agents: ingest anything, query everything."
+    },
+    {
+      "name": "skillsmith",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/skillsmith"
+      },
+      "description": "Create, test and vet SKILL.md skills for any coding agent."
+    },
+    {
+      "name": "agent-booster",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/agent-booster"
+      },
+      "description": "Mechanical code edits without a model: deterministic, free, offline."
+    },
+    {
+      "name": "armory",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/armory"
+      },
+      "description": "Where agents gear up: 60,000+ open-source agent components, ranked on public evidence."
+    },
+    {
+      "name": "agentgrid",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/agentgrid"
+      },
+      "description": "Spawn grids of coding agents (Claude, Codex, Gemini, Cursor) in one command."
+    },
+    {
+      "name": "agentswarm",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/agentswarm"
+      },
+      "description": "One YAML file, a swarm of expert agents, no idle panes."
+    },
+    {
+      "name": "agentbench",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/agentbench"
+      },
+      "description": "Lighthouse for coding-agent harnesses: score your setup out of 100."
+    },
+    {
+      "name": "harness",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/claude-harness"
+      },
+      "description": "One command installs a tested Claude Code harness: skills, hooks, rules, sub-agents and memory."
+    }
+  ]
+}

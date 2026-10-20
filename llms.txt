@@ -1,0 +1,21 @@
+# Naman Parikh
+
+> I build agent-native software: tools that agents use, built with agents, that improve themselves.
+
+## Projects
+
+- [AgentDial](https://github.com/naman10parikh/agentdial): One identity for any agent across SMS, voice, email and chat apps.
+- [WikiMem](https://github.com/naman10parikh/wikimem): Self-improving memory for agents: ingest anything, query everything.
+- [Skillsmith](https://github.com/naman10parikh/skillsmith): Create, test and vet SKILL.md skills for any coding agent.
+- [Agent Booster](https://github.com/naman10parikh/agent-booster): Mechanical code edits without a model: deterministic, free, offline.
+- [Armory](https://github.com/naman10parikh/armory): Where agents gear up: 60,000+ open-source agent components, ranked on public evidence.
+- [AgentGrid](https://github.com/naman10parikh/agentgrid): Spawn grids of coding agents (Claude, Codex, Gemini, Cursor) in one command.
+- [AgentSwarm](https://github.com/naman10parikh/agentswarm): One YAML file, a swarm of expert agents, no idle panes.
+- [AgentBench](https://github.com/naman10parikh/agentbench): Lighthouse for coding-agent harnesses: score your setup out of 100.
+- [Claude Harness](https://github.com/naman10parikh/claude-harness): One command installs a tested Claude Code harness: skills, hooks, rules, sub-agents and memory.
+- [Awesome A2A Servers](https://github.com/naman10parikh/awesome-a2a-servers): A curated list of Agent2Agent (A2A) protocol servers, clients, libraries and tutorials.
+
+## For agents
+
+- [AGENTS.md](AGENTS.md): how to choose and install a project
+- [Marketplace](.claude-plugin/marketplace.json): every project as a Claude Code plugin

@@ -1,0 +1,59 @@
+{
+  "name": "Naman Parikh",
+  "handle": "naman10parikh",
+  "tagline": "I build agent-native software: tools that agents use, built with agents, that improve themselves.",
+  "role": "Product Manager 2, Agent TPM at Microsoft (Azure HPC and AI)",
+  "education": "Computer Science, Duke University",
+  "pitch": [
+    "I believe the next era of AI will be defined not just by frontier model intelligence, but by the real economic value it creates. I measure it as **return on watts = tokens per watt × real value per token**, and my entire career has been about maximizing it.",
+    "Tokens per watt is what the hardware makes. Real value per token is what each token earns for the person who uses it."
+  ],
+  "now": [
+    "Building agent employees: agents with their own identity, skills and memory, which any coding agent can install, and which propose their own improvements for a person to review.",
+    "Measuring every system by return on watts: how many tokens a watt makes, and how much real value each token carries.",
+    "Open-sourcing the parts as I go, each one an agent employee you can install in one step."
+  ],
+  "links": [
+    {
+      "label": "LinkedIn",
+      "text": "naman--parikh1",
+      "color": "0a66c2",
+      "logo": "linkedin",
+      "url": "https://www.linkedin.com/in/naman-parikh1/"
+    },
+    {
+      "label": "X",
+      "text": "@naman10parikh",
+      "color": "000000",
+      "logo": "x",
+      "url": "https://x.com/naman10parikh"
+    },
+    {
+      "label": "Portfolio",
+      "text": "Google Drive",
+      "color": "1a73e8",
+      "logo": "googledrive",
+      "url": "https://drive.google.com/drive/folders/1_z-EHlN_dZcHGdrjUfwyVoWqvYpKRkjN?usp=sharing"
+    }
+  ],
+  "featured": [
+    "armory",
+    "agentgrid",
+    "wikimem",
+    "agentdial",
+    "agentbench",
+    "pixel",
+    "darwin",
+    "claude-harness"
+  ],
+  "start": {
+    "armory": "Find and rank the parts of an agent's harness",
+    "agentgrid": "Run many coding agents at once",
+    "wikimem": "Give your agents a memory",
+    "agentdial": "Give an agent a phone number, an inbox and chat",
+    "agentbench": "Score your agent setup out of 100",
+    "pixel": "Put frontend taste in CI",
+    "darwin": "Make a project improve itself",
+    "claude-harness": "Start from a complete Claude Code setup"
+  }
+}

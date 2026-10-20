@@ -4,9 +4,9 @@
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}</style>
 <rect width="1200" height="230" rx="14" fill="#fbfaf7" stroke="#e4e0d6"/>
 <text x="48" y="84" font-size="34" fill="#1c1b18">Naman Parikh</text>
-<text x="48" y="118" font-size="17" fill="#6b675e">Agent-native systems that can eventually improve and</text>
-<text x="48" y="146" font-size="17" fill="#6b675e">evolve themselves, operated by agent employees</text>
-<text x="560" y="118" font-size="44" font-weight="600" fill="#2f5d8a">11</text><text x="560" y="146" font-size="13" fill="#6b675e">public projects</text><text x="775" y="118" font-size="44" font-weight="600" fill="#2f5d8a">9</text><text x="775" y="146" font-size="13" fill="#6b675e">propose their own fixes</text><text x="990" y="118" font-size="44" font-weight="600" fill="#2f5d8a">10</text><text x="990" y="146" font-size="13" fill="#6b675e">install in one step</text>
+<text x="48" y="118" font-size="19" fill="#6b675e">Agent-native systems that can eventually improve and</text>
+<text x="48" y="146" font-size="19" fill="#6b675e">evolve themselves, operated by agent employees</text>
+<text x="560" y="118" font-size="44" font-weight="600" fill="#2f5d8a">11</text><text x="560" y="146" font-size="16" fill="#6b675e">public projects</text><text x="775" y="118" font-size="44" font-weight="600" fill="#2f5d8a">9</text><text x="775" y="146" font-size="16" fill="#6b675e">propose their own fixes</text><text x="990" y="118" font-size="44" font-weight="600" fill="#2f5d8a">10</text><text x="990" y="146" font-size="16" fill="#6b675e">install in one step</text>
 <rect x="48" y="176" width="1104" height="32" rx="6" fill="#e4ecf4"/>
-<text x="64" y="197" font-size="15" fill="#1e3f60">Install any of them in Claude Code: /plugin marketplace add naman10parikh/naman10parikh</text>
+<text x="64" y="198" font-size="18" fill="#1e3f60">Install any of them in Claude Code: /plugin marketplace add naman10parikh/naman10parikh</text>
 </svg>

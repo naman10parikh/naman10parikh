@@ -40,10 +40,12 @@ def star_history(name, token):
         weeks += data
         nxt = next((p.split(";")[0].strip(" <>") for p in links.split(",") if 'rel="next"' in p), "")
         path = nxt.replace("https://api.github.com/", "")
-    total, points = 0, []
-    for w in sorted(weeks, key=lambda w: w["week"]):
+    weeks.sort(key=lambda w: w["week"])
+    now = datetime.now(timezone.utc).timestamp()
+    total, points = 0, [(weeks[0]["week"], 0)] if weeks else []  # each line rises from zero
+    for w in weeks:
         total += w["total"]
-        points.append((w["week"], total))
+        points.append((min(w["week"] + 7 * 86400, now), total))  # a week's stars count from its end
     return points
 
 
@@ -107,7 +109,7 @@ def banner(profile, projects):
     stats = [(str(n), "public projects"), (str(loops), "propose their own fixes"), (str(plugins), "install in one step")]
     cells = "".join(
         f'<text x="{560 + i * 215}" y="118" font-size="44" font-weight="600" fill="#2f5d8a">{escape(v)}</text>'
-        f'<text x="{560 + i * 215}" y="146" font-size="13" fill="#6b675e">{escape(l)}</text>'
+        f'<text x="{560 + i * 215}" y="146" font-size="16" fill="#6b675e">{escape(l)}</text>'
         for i, (v, l) in enumerate(stats))
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="t d">
 <title id="t">{escape(profile['name'])}: agent-native projects</title>
@@ -115,11 +117,11 @@ def banner(profile, projects):
 <style>text{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}}</style>
 <rect width="1200" height="230" rx="14" fill="#fbfaf7" stroke="#e4e0d6"/>
 <text x="48" y="84" font-size="34" fill="#1c1b18">{escape(profile['name'])}</text>
-<text x="48" y="118" font-size="17" fill="#6b675e">Agent-native systems that can eventually improve and</text>
-<text x="48" y="146" font-size="17" fill="#6b675e">evolve themselves, operated by agent employees</text>
+<text x="48" y="118" font-size="19" fill="#6b675e">Agent-native systems that can eventually improve and</text>
+<text x="48" y="146" font-size="19" fill="#6b675e">evolve themselves, operated by agent employees</text>
 {cells}
 <rect x="48" y="176" width="1104" height="32" rx="6" fill="#e4ecf4"/>
-<text x="64" y="197" font-size="15" fill="#1e3f60">Install any of them in Claude Code: /plugin marketplace add {OWNER}/{OWNER}</text>
+<text x="64" y="198" font-size="18" fill="#1e3f60">Install any of them in Claude Code: /plugin marketplace add {OWNER}/{OWNER}</text>
 </svg>
 """
 
@@ -224,7 +226,7 @@ def readme(profile, data):
             "set by running the project's own tests and evals. ✅ real and tested · 🟡 partial, with the reason in the "
             "project's README · · not graded yet", "", "</details>", ""]
     if (HERE / "assets/star-history.svg").exists():
-        out += ["## Star history", "", "<img alt=\"Stars over time for the featured projects, drawn daily from GitHub's "
+        out += ["## Star history", "", "<img alt=\"Stars over time for each project with stars, drawn daily from GitHub's "
                 "star history data\" src=\"assets/star-history.svg\" width=\"100%\">", ""]
     out += ["## Now", ""] + [f"- {x}" for x in profile["now"]] + [""]
     if profile.get("contributions"):
@@ -281,11 +283,10 @@ def main():
         data["projects"] = live(data["projects"])
     (HERE / "assets").mkdir(exist_ok=True)
     (HERE / ".claude-plugin").mkdir(exist_ok=True)
-    by = {p["name"]: p for p in data["projects"]}
-    featured = sorted((by[n] for n in profile["featured"] if n in by), key=lambda p: -p.get("stars", 0))
+    starred = sorted((p for p in data["projects"] if p.get("stars", 0) > 0), key=lambda p: -p["stars"])
     outputs = {"assets/banner.svg": banner(profile, data["projects"]),
                ".claude-plugin/marketplace.json": marketplace(profile, data)}
-    chart = star_chart(featured)
+    chart = star_chart(starred)
     if chart:  # nothing drawn (offline, or no stars yet): the last committed chart stays
         outputs["assets/star-history.svg"] = chart
     for path, text in outputs.items():

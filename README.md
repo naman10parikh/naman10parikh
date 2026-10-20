@@ -48,7 +48,7 @@ Each project's README also gives its MCP server, its Gemini CLI extension, its s
 
 ## The projects
 
-11 agent-native projects. Each owns one part of an agent's harness, or of the product around an agent. 9 of them run their evals in CI on every change; the status matrix shows how far each one's self-improvement loop goes.
+11 agent-native projects. Each owns one part of an agent's harness, or of the product around an agent. 10 of them run their evals on a schedule and propose fixes for a person to review. The status matrix shows the rest.
 
 ### Harness components
 
@@ -75,16 +75,16 @@ Each project's README also gives its MCP server, its Gemini CLI extension, its s
 
 | Project | Checks | Identity | Memory | Skills | Tools | Hooks | Sub-agents | MCPs | Dispatch | Evals | Observability | Sandbox | Self-improvement |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [AgentDial](https://github.com/naman10parikh/agentdial) | ✅ passing | 🟡 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [WikiMem](https://github.com/naman10parikh/wikimem) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Skillsmith](https://github.com/naman10parikh/skillsmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Agent Booster](https://github.com/naman10parikh/agent-booster) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Armory](https://github.com/naman10parikh/armory) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ❌ |
-| [AgentGrid](https://github.com/naman10parikh/agentgrid) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [AgentSwarm](https://github.com/naman10parikh/agentswarm) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [AgentBench](https://github.com/naman10parikh/agentbench) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [AgentMoney](https://github.com/naman10parikh/agentmoney) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Claude Harness](https://github.com/naman10parikh/claude-harness) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [AgentDial](https://github.com/naman10parikh/agentdial) | ⏳ running | 🟡 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WikiMem](https://github.com/naman10parikh/wikimem) | ⏳ running | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Skillsmith](https://github.com/naman10parikh/skillsmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Agent Booster](https://github.com/naman10parikh/agent-booster) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Armory](https://github.com/naman10parikh/armory) | ⏳ running | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
+| [AgentGrid](https://github.com/naman10parikh/agentgrid) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [AgentSwarm](https://github.com/naman10parikh/agentswarm) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [AgentBench](https://github.com/naman10parikh/agentbench) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [AgentMoney](https://github.com/naman10parikh/agentmoney) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Claude Harness](https://github.com/naman10parikh/claude-harness) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Awesome A2A Servers](https://github.com/naman10parikh/awesome-a2a-servers) | ✅ passing | · | · | · | · | · | · | · | ✅ | ✅ | · | · | 🟡 |
 
 Checks is the latest GitHub Actions result on each project's default branch, read daily. Each grade was set by running the project's own tests and evals; self-improvement is the level Darwin's checker verifies (✅ a weekly loop opens a proposal for a person, 🟡 evals gate every change). ✅ real and tested · 🟡 partial, with the reason in the project's README · · not graded yet

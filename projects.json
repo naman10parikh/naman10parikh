@@ -145,7 +145,7 @@
     {
       "name": "armory",
       "display": "Armory",
-      "soul": "Armory",
+      "soul": "Armiger",
       "group": "Harness components",
       "owns": "MCPs and the component registry",
       "kind": "component",

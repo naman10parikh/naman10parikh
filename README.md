@@ -27,11 +27,11 @@ Tokens per watt is what the hardware makes. Real value per token is what each to
 
 <!-- releases:start -->
 
+- [AgentDial v1.2.1](https://github.com/naman10parikh/agentdial/releases/tag/v1.2.1): 20 October 2026
+- [WikiMem v0.10.0](https://github.com/naman10parikh/wikimem/releases/tag/v0.10.0): 20 October 2026
 - [Skillsmith v1.0.0](https://github.com/naman10parikh/skillsmith/releases/tag/v1.0.0): 20 October 2026
 - [Agent Booster v1.0.0](https://github.com/naman10parikh/agent-booster/releases/tag/v1.0.0): 20 October 2026
-- [AgentGrid v2.0.0](https://github.com/naman10parikh/agentgrid/releases/tag/v2.0.0): 20 October 2026
-- [AgentSwarm v0.2.0](https://github.com/naman10parikh/agentswarm/releases/tag/v0.2.0): 20 October 2026
-- [AgentBench v1.0.0](https://github.com/naman10parikh/agentbench/releases/tag/v1.0.0): 20 October 2026
+- [Armory v0.1.0](https://github.com/naman10parikh/armory/releases/tag/v0.1.0): 20 October 2026
 
 <!-- releases:end -->
 
@@ -75,11 +75,11 @@ Each project's README also gives its MCP server, its Gemini CLI extension, its s
 
 | Project | Checks | Identity | Memory | Skills | Tools | Hooks | Sub-agents | MCPs | Dispatch | Evals | Observability | Sandbox | Self-improvement |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [AgentDial](https://github.com/naman10parikh/agentdial) | ⏳ running | 🟡 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [WikiMem](https://github.com/naman10parikh/wikimem) | ⏳ running | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [AgentDial](https://github.com/naman10parikh/agentdial) | ✅ passing | 🟡 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [WikiMem](https://github.com/naman10parikh/wikimem) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Skillsmith](https://github.com/naman10parikh/skillsmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Agent Booster](https://github.com/naman10parikh/agent-booster) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Armory](https://github.com/naman10parikh/armory) | ⏳ running | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
+| [Armory](https://github.com/naman10parikh/armory) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
 | [AgentGrid](https://github.com/naman10parikh/agentgrid) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentSwarm](https://github.com/naman10parikh/agentswarm) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentBench](https://github.com/naman10parikh/agentbench) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |

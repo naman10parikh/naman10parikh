@@ -1,6 +1,6 @@
 # AGENTS.md: Naman Parikh's agent-native projects
 
-You are a coding agent. This account holds 11 agent-native projects. Each is an agent employee that owns one job; pick by the job you need, then install it.
+You are a coding agent. This account lists 11 public agent-native projects. Each is an agent employee that owns one job; pick by the job you need, then install it.
 
 ## Install
 
@@ -30,7 +30,7 @@ You are a coding agent. This account holds 11 agent-native projects. Each is an 
 
 ## Rules for changing this profile
 
-- Public data only: nothing from a private repository, and no email, phone or city.
+- Public data only: nothing from inside a private repository (the breakdown counts private repositories, never names them), and no email, phone or city.
 - Numbers as true floors: a star count shows only from 10, rounded down (10+, 30+, 400+, 20k+).
 - No outside image that can break: `scripts/render.py` draws every graphic from GitHub's own API.
 - Change `profile.json` or `projects.json`, never the generated files, and read the page rendered through `gh api markdown` before merging.

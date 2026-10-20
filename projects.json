@@ -352,5 +352,11 @@
         "RSI / open-endedness": "🟡"
       }
     }
-  ]
+  ],
+  "repositories": {
+    "public": 10,
+    "preparing": 26,
+    "private": 10,
+    "counted": "2026-10-20"
+  }
 }

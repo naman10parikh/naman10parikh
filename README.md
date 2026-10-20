@@ -48,7 +48,18 @@ Each project's README also gives its MCP server, its Gemini CLI extension, its s
 
 ## The projects
 
-11 agent-native projects. Each owns one part of an agent's harness, or of the product around an agent. 10 of them run their evals on a schedule and propose fixes for a person to review. The status matrix shows the rest.
+**40+ agent-native repositories**, counted on 20 October 2026:
+
+| Where they are | Repositories |
+| --- | --- |
+| Open source now, listed below | 10 |
+| Being prepared to open | 26 |
+| Private: personal and company work | 10 |
+| **In all** | **46** |
+
+Agent-native means a file that tells agents how to work in the repository (`AGENTS.md` or `CLAUDE.md`) and at least one agent part: skills, sub-agents, hooks, an MCP server, a plugin or a self-improvement contract.
+
+Each project below owns one part of an agent's harness, or of the product around an agent. 10 of them run their evals on a schedule and propose fixes for a person to review. The status matrix shows the rest.
 
 ### Harness components
 
@@ -80,7 +91,7 @@ Each project's README also gives its MCP server, its Gemini CLI extension, its s
 | [Skillsmith](https://github.com/naman10parikh/skillsmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Agent Booster](https://github.com/naman10parikh/agent-booster) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Armory](https://github.com/naman10parikh/armory) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
-| [AgentGrid](https://github.com/naman10parikh/agentgrid) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [AgentGrid](https://github.com/naman10parikh/agentgrid) | ❌ failing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentSwarm](https://github.com/naman10parikh/agentswarm) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentBench](https://github.com/naman10parikh/agentbench) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentMoney](https://github.com/naman10parikh/agentmoney) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="t d">
 <title id="t">Naman Parikh: agent-native projects</title>
-<desc id="d">11 public agent-native projects; each owns one of the 11 harness components or a part of the product around an agent, and carries its own evals.</desc>
+<desc id="d">40+ agent-native repositories, 11 public projects; each owns one of the 11 harness components or a part of the product around an agent, and carries its own evals.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}</style>
 <rect width="1200" height="230" rx="14" fill="#fbfaf7" stroke="#e4e0d6"/>
 <text x="48" y="84" font-size="34" fill="#1c1b18">Naman Parikh</text>
 <text x="48" y="118" font-size="19" fill="#6b675e">Agent-native systems that can eventually improve and</text>
 <text x="48" y="146" font-size="19" fill="#6b675e">evolve themselves, operated by agent employees</text>
-<text x="560" y="118" font-size="44" font-weight="600" fill="#2f5d8a">11</text><text x="560" y="146" font-size="16" fill="#6b675e">public projects</text><text x="775" y="118" font-size="44" font-weight="600" fill="#2f5d8a">10</text><text x="775" y="146" font-size="16" fill="#6b675e">propose their own fixes</text><text x="990" y="118" font-size="44" font-weight="600" fill="#2f5d8a">10</text><text x="990" y="146" font-size="16" fill="#6b675e">install in one step</text>
+<text x="560" y="118" font-size="44" font-weight="600" fill="#2f5d8a">40+</text><text x="560" y="146" font-size="16" fill="#6b675e">agent-native repositories</text><text x="775" y="118" font-size="44" font-weight="600" fill="#2f5d8a">10</text><text x="775" y="146" font-size="16" fill="#6b675e">propose their own fixes</text><text x="990" y="118" font-size="44" font-weight="600" fill="#2f5d8a">10</text><text x="990" y="146" font-size="16" fill="#6b675e">install in one step</text>
 <rect x="48" y="176" width="1104" height="32" rx="6" fill="#e4ecf4"/>
 <text x="64" y="198" font-size="18" fill="#1e3f60">Install any of them in Claude Code: /plugin marketplace add naman10parikh/naman10parikh</text>
 </svg>

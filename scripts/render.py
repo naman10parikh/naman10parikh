@@ -93,9 +93,17 @@ def shield(text):
 
 
 def proposes(p):
-    """A scheduled loop that writes proposals for a person (dsip.json level L2; at L1 its evals gate merges in CI, and a
-    higher level, such as a loop that commits by itself, is described in that project's own README)."""
-    return p.get("loop", "") == "L2"
+    """A scheduled loop that opens a proposal for a person and never merges: Darwin's checker verifies L2 or higher in
+    the repository (at L1 its evals only gate changes in CI)."""
+    return p.get("loop", "") in ("L2", "L3")
+
+
+def mark(p, component):
+    """A project's grade for one component. Self-improvement comes from the level Darwin's checker verifies (✅ at L2 or
+    higher, 🟡 at L1, ❌ at L0), so the matrix can never claim more than the repository shows."""
+    if component == "RSI / open-endedness" and p.get("loop"):
+        return "✅" if proposes(p) else "🟡" if p["loop"] == "L1" else "❌"
+    return p.get("grades", {}).get(component, "·")
 
 
 def link(p):
@@ -106,7 +114,9 @@ def banner(profile, projects):
     n = len(projects)
     plugins = sum(1 for p in projects if p.get("plugin"))
     loops = sum(1 for p in projects if proposes(p))
-    stats = [(str(n), "public projects"), (str(loops), "propose their own fixes"), (str(plugins), "install in one step")]
+    gated = sum(1 for p in projects if p.get("loop", "") in ("L1", "L2", "L3"))
+    middle = (str(loops), "propose their own fixes") if loops else (str(gated), "gate changes on evals")
+    stats = [(str(n), "public projects"), middle, (str(plugins), "install in one step")]
     cells = "".join(
         f'<text x="{560 + i * 215}" y="118" font-size="44" font-weight="600" fill="#2f5d8a">{escape(v)}</text>'
         f'<text x="{560 + i * 215}" y="146" font-size="16" fill="#6b675e">{escape(l)}</text>'
@@ -211,7 +221,10 @@ def readme(profile, data):
     out += ["## The projects", "",
             f"{len(projects)} agent-native projects. Each owns one part of an agent's harness, "
             "or of the product around an agent. " + (f"All {rsi} {loop}" if rsi == len(projects) else
-                                                    f"{rsi} of them {loop} The status matrix shows the rest."), ""]
+                                                    f"{rsi} of them {loop} The status matrix shows the rest." if rsi else
+                                                    f"{sum(1 for p in projects if p.get('loop', '') in ('L1', 'L2', 'L3'))} "
+                                                    "of them run their evals in CI on every change; the status matrix "
+                                                    "shows how far each one's self-improvement loop goes."), ""]
     for g in data["groups"]:
         rows = [p for p in projects if p["group"] == g]
         if rows:
@@ -220,10 +233,10 @@ def readme(profile, data):
     head = " | ".join(SHORT.get(c, c) for c in comps)
     out += ["<details><summary><b>Status matrix</b>: the 11 harness components and self-improvement, per project</summary>",
             "", f"| Project | Checks | {head} |", "| --- | --- |" + " --- |" * len(comps)]
-    out += [f"| {link(p)} | {p.get('checks') or '·'} | " + " | ".join(p.get("grades", {}).get(c, "·") for c in comps) + " |"
-            for p in projects]
+    out += [f"| {link(p)} | {p.get('checks') or '·'} | " + " | ".join(mark(p, c) for c in comps) + " |" for p in projects]
     out += ["", "Checks is the latest GitHub Actions result on each project's default branch, read daily. Each grade was "
-            "set by running the project's own tests and evals. ✅ real and tested · 🟡 partial, with the reason in the "
+            "set by running the project's own tests and evals; self-improvement is the level Darwin's checker verifies (✅ a "
+            "weekly loop opens a proposal for a person, 🟡 evals gate every change). ✅ real and tested · 🟡 partial, with the reason in the "
             "project's README · · not graded yet", "", "</details>", ""]
     if (HERE / "assets/star-history.svg").exists():
         out += ["## Star history", "", "<img alt=\"Stars over time for each project with stars, drawn daily from GitHub's "

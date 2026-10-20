@@ -36,7 +36,7 @@
       "plugin_name": "agentdial",
       "mcp": true,
       "skills": 4,
-      "loop": "L2",
+      "loop": "L1",
       "grades": {
         "Identity": "🟡",
         "Memory": "✅",
@@ -66,7 +66,7 @@
       "plugin_name": "wikimem",
       "mcp": true,
       "skills": 3,
-      "loop": "L2",
+      "loop": "L1",
       "grades": {
         "Identity": "✅",
         "Memory": "✅",
@@ -96,7 +96,7 @@
       "plugin_name": "skillsmith",
       "mcp": true,
       "skills": 3,
-      "loop": "L2",
+      "loop": "L1",
       "grades": {
         "Identity": "✅",
         "Memory": "✅",
@@ -126,7 +126,7 @@
       "plugin_name": "agent-booster",
       "mcp": true,
       "skills": 3,
-      "loop": "L2",
+      "loop": "L1",
       "grades": {
         "Identity": "✅",
         "Memory": "✅",
@@ -156,7 +156,7 @@
       "plugin_name": "armory",
       "mcp": true,
       "skills": 4,
-      "loop": "L3",
+      "loop": "L0",
       "grades": {
         "Identity": "✅",
         "Memory": "✅",
@@ -186,7 +186,7 @@
       "plugin_name": "agentgrid",
       "mcp": true,
       "skills": 3,
-      "loop": "L2",
+      "loop": "L1",
       "grades": {
         "Identity": "✅",
         "Memory": "✅",
@@ -216,7 +216,7 @@
       "plugin_name": "agentswarm",
       "mcp": true,
       "skills": 3,
-      "loop": "L2",
+      "loop": "L1",
       "grades": {
         "Identity": "✅",
         "Memory": "✅",
@@ -246,7 +246,7 @@
       "plugin_name": "agentbench",
       "mcp": true,
       "skills": 4,
-      "loop": "L2",
+      "loop": "L1",
       "grades": {
         "Identity": "✅",
         "Memory": "✅",
@@ -276,7 +276,7 @@
       "plugin_name": "agentmoney",
       "mcp": true,
       "skills": 3,
-      "loop": "L2",
+      "loop": "L1",
       "grades": {
         "Identity": "✅",
         "Memory": "✅",
@@ -306,7 +306,7 @@
       "plugin_name": "harness",
       "mcp": true,
       "skills": 3,
-      "loop": "L2",
+      "loop": "L1",
       "grades": {
         "Identity": "✅",
         "Memory": "✅",

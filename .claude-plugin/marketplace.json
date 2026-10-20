@@ -71,6 +71,14 @@
       "description": "Lighthouse for coding-agent harnesses: score your setup out of 100."
     },
     {
+      "name": "agentmoney",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/agentmoney"
+      },
+      "description": "Know what your AI costs: pricing and spend for Claude, GPT and Gemini."
+    },
+    {
       "name": "harness",
       "source": {
         "source": "github",

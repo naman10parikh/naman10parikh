@@ -2,7 +2,7 @@
   "name": "Naman Parikh",
   "handle": "naman10parikh",
   "tagline": "I build agent-native software: tools that agents use, built with agents, that improve themselves.",
-  "role": "Product Manager 2, Agent TPM at Microsoft (Azure HPC and AI)",
+  "role": "Product manager at Microsoft, working on AI infrastructure",
   "education": "Computer Science, Duke University",
   "pitch": [
     "I believe the next era of AI will be defined not just by frontier model intelligence, but by the real economic value it creates. I measure it as **return on watts = tokens per watt × real value per token**, and my entire career has been about maximizing it.",
@@ -16,9 +16,9 @@
   "links": [
     {
       "label": "LinkedIn",
-      "text": "naman--parikh1",
+      "text": "Naman Parikh",
       "color": "0a66c2",
-      "logo": "linkedin",
+      "logo": "",
       "url": "https://www.linkedin.com/in/naman-parikh1/"
     },
     {
@@ -30,9 +30,9 @@
     },
     {
       "label": "Portfolio",
-      "text": "Google Drive",
+      "text": "Portfolio",
       "color": "1a73e8",
-      "logo": "googledrive",
+      "logo": "",
       "url": "https://drive.google.com/drive/folders/1_z-EHlN_dZcHGdrjUfwyVoWqvYpKRkjN?usp=sharing"
     }
   ],
@@ -55,5 +55,45 @@
     "pixel": "Put frontend taste in CI",
     "darwin": "Make a project improve itself",
     "claude-harness": "Start from a complete Claude Code setup"
-  }
+  },
+  "works_with": [
+    [
+      "Claude Code",
+      "D97757",
+      "claude"
+    ],
+    [
+      "MCP",
+      "111111",
+      "modelcontextprotocol"
+    ],
+    [
+      "Codex",
+      "111111",
+      ""
+    ],
+    [
+      "Gemini CLI",
+      "8E75B2",
+      "googlegemini"
+    ],
+    [
+      "Cursor",
+      "000000",
+      "cursor"
+    ],
+    [
+      "TypeScript",
+      "3178C6",
+      "typescript"
+    ],
+    [
+      "Python",
+      "3776AB",
+      "python"
+    ]
+  ],
+  "contributions": [
+    "Thanked in the official Model Context Protocol TypeScript SDK for an earlier pull request on the same fix ([#1736](https://github.com/modelcontextprotocol/typescript-sdk/pull/1736), consolidated into [#1766](https://github.com/modelcontextprotocol/typescript-sdk/pull/1766), merged 30 March 2026)."
+  ]
 }

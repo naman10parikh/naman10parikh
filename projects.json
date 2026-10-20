@@ -263,6 +263,36 @@
       }
     },
     {
+      "name": "agentmoney",
+      "display": "AgentMoney",
+      "soul": "Ledger",
+      "group": "Harness components",
+      "owns": "Observability",
+      "kind": "component",
+      "one_liner": "Know what your AI costs: pricing and spend for Claude, GPT and Gemini.",
+      "stars": 0,
+      "branch": "main",
+      "plugin": true,
+      "plugin_name": "agentmoney",
+      "mcp": true,
+      "skills": 3,
+      "loop": "L2",
+      "grades": {
+        "Identity": "✅",
+        "Memory": "✅",
+        "Skills": "✅",
+        "Tools/CLIs": "✅",
+        "Hooks": "✅",
+        "Sub-agents": "✅",
+        "MCPs": "✅",
+        "Dispatch": "✅",
+        "Evals": "✅",
+        "Observability": "✅",
+        "Sandbox/Infra": "✅",
+        "RSI / open-endedness": "✅"
+      }
+    },
+    {
       "name": "claude-harness",
       "display": "Claude Harness",
       "soul": "Harness",

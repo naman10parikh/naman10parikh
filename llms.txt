@@ -12,6 +12,7 @@
 - [AgentGrid](https://github.com/naman10parikh/agentgrid): Spawn grids of coding agents (Claude, Codex, Gemini, Cursor) in one command.
 - [AgentSwarm](https://github.com/naman10parikh/agentswarm): One YAML file, a swarm of expert agents, no idle panes.
 - [AgentBench](https://github.com/naman10parikh/agentbench): Lighthouse for coding-agent harnesses: score your setup out of 100.
+- [AgentMoney](https://github.com/naman10parikh/agentmoney): Know what your AI costs: pricing and spend for Claude, GPT and Gemini.
 - [Claude Harness](https://github.com/naman10parikh/claude-harness): One command installs a tested Claude Code harness: skills, hooks, rules, sub-agents and memory.
 - [Awesome A2A Servers](https://github.com/naman10parikh/awesome-a2a-servers): A curated list of Agent2Agent (A2A) protocol servers, clients, libraries and tutorials.
 

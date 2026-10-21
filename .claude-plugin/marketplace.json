@@ -39,6 +39,30 @@
       "description": "Mechanical code edits without a model: deterministic, free, offline."
     },
     {
+      "name": "hooksmith",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/hooksmith"
+      },
+      "description": "Generate, lint and fire-test lifecycle hooks for coding agents."
+    },
+    {
+      "name": "agentcast",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/agentcast"
+      },
+      "description": "A library of reusable sub-agent personas, validated and scored."
+    },
+    {
+      "name": "plugsmith",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/plugsmith"
+      },
+      "description": "Turn any repository into a Claude Code plugin and marketplace."
+    },
+    {
       "name": "armory",
       "source": {
         "source": "github",
@@ -79,12 +103,172 @@
       "description": "Know what your AI costs: pricing and spend for Claude, GPT and Gemini."
     },
     {
+      "name": "sandforge",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/sandforge"
+      },
+      "description": "Sandbox templates with a trust envelope, validated and booted in E2B."
+    },
+    {
       "name": "harness",
       "source": {
         "source": "github",
         "repo": "naman10parikh/claude-harness"
       },
       "description": "One command installs a tested Claude Code harness: skills, hooks, rules, sub-agents and memory."
+    },
+    {
+      "name": "pixel",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/pixel"
+      },
+      "description": "Frontend taste you can put in CI: it scaffolds Next.js 16 apps and blocks UI that looks AI-made."
+    },
+    {
+      "name": "pebble",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/pebble"
+      },
+      "description": "Ships React Native and Expo apps headlessly: shape call, scaffold, EAS build, OTA and store review."
+    },
+    {
+      "name": "turbo",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/turbo"
+      },
+      "description": "Turns an OpenAPI spec into a strict TypeScript Hono service and audits it for production bugs."
+    },
+    {
+      "name": "acorn",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/acorn"
+      },
+      "description": "Designs Postgres schemas, makes migrations safe to run and tests row-level security so tenants stay apart."
+    },
+    {
+      "name": "badge",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/badge"
+      },
+      "description": "Auth and agent identity, proven rather than assumed."
+    },
+    {
+      "name": "penny",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/penny"
+      },
+      "description": "Payments and billing wired correctly, for products and their agents."
+    },
+    {
+      "name": "rocket",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/rocket"
+      },
+      "description": "Release engineering you can put in CI."
+    },
+    {
+      "name": "hush",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/hush"
+      },
+      "description": "Keeps secrets from reaching the model: blocked at the hook, scanned, and encrypted with SOPS and age."
+    },
+    {
+      "name": "canary",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/canary"
+      },
+      "description": "Error and uptime monitoring on OpenTelemetry, with burn-rate alerts and proof the page gets delivered."
+    },
+    {
+      "name": "tally",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/tally"
+      },
+      "description": "Product analytics, feature flags and A/B tests that fail closed, starting from a CI-gated tracking plan."
+    },
+    {
+      "name": "pigeon",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/pigeon"
+      },
+      "description": "Transactional email that reaches the inbox: authenticated, kept apart from marketing mail, easy to unsubscribe."
+    },
+    {
+      "name": "bee",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/bee"
+      },
+      "description": "Background jobs and webhooks that are safe to run twice: every side effect happens once."
+    },
+    {
+      "name": "shelf",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/shelf"
+      },
+      "description": "File uploads and object storage: presigned, validated, cheap to serve."
+    },
+    {
+      "name": "echo",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/echo"
+      },
+      "description": "Rate limits and caching for serverless APIs."
+    },
+    {
+      "name": "truffle",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/truffle"
+      },
+      "description": "Search you can measure: hybrid ranking with a relevance loop."
+    },
+    {
+      "name": "stamp",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/stamp"
+      },
+      "description": "SOC 2 readiness you can run: gap reports, audit trails and the SSO plan."
+    },
+    {
+      "name": "parrot",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/parrot"
+      },
+      "description": "Localisation for Next.js, checked in CI: plurals, right-to-left and search engines."
+    },
+    {
+      "name": "svgforge",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/svgforge"
+      },
+      "description": "Diagrams as code: deterministic SVG figures with lint gates, drawn by agents."
+    },
+    {
+      "name": "fleet-audit",
+      "source": {
+        "source": "github",
+        "repo": "naman10parikh/fleet-audit"
+      },
+      "description": "Scan your repositories for every surface coding agents need, and fix them."
     }
   ]
 }

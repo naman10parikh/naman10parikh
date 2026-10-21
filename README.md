@@ -32,7 +32,7 @@ Tokens per watt is what the hardware makes. Real value per token is what each to
 - [AgentCast v0.1.0](https://github.com/naman10parikh/agentcast/releases/tag/v0.1.0): 21 October 2026
 - [Plugsmith v0.1.0](https://github.com/naman10parikh/plugsmith/releases/tag/v0.1.0): 21 October 2026
 - [Sandforge v0.2.0](https://github.com/naman10parikh/sandforge/releases/tag/v0.2.0): 21 October 2026
-- [AgentDial v1.2.1](https://github.com/naman10parikh/agentdial/releases/tag/v1.2.1): 20 October 2026
+- [Pixel v0.1.0](https://github.com/naman10parikh/pixel/releases/tag/v0.1.0): 21 October 2026
 
 <!-- releases:end -->
 
@@ -126,41 +126,41 @@ Each project below owns one part of an agent's harness, or of the product around
 
 | Project | Checks | Identity | Memory | Skills | Tools | Hooks | Sub-agents | MCPs | Dispatch | Evals | Observability | Sandbox | Self-improvement |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [AgentDial](https://github.com/naman10parikh/agentdial) | ❌ failing | 🟡 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [AgentDial](https://github.com/naman10parikh/agentdial) | ✅ passing | 🟡 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [WikiMem](https://github.com/naman10parikh/wikimem) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Skillsmith](https://github.com/naman10parikh/skillsmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Agent Booster](https://github.com/naman10parikh/agent-booster) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Hooksmith](https://github.com/naman10parikh/hooksmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentCast](https://github.com/naman10parikh/agentcast) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Plugsmith](https://github.com/naman10parikh/plugsmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Armory](https://github.com/naman10parikh/armory) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
+| [Armory](https://github.com/naman10parikh/armory) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
 | [AgentGrid](https://github.com/naman10parikh/agentgrid) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentSwarm](https://github.com/naman10parikh/agentswarm) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentBench](https://github.com/naman10parikh/agentbench) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentMoney](https://github.com/naman10parikh/agentmoney) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Sandforge](https://github.com/naman10parikh/sandforge) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Claude Harness](https://github.com/naman10parikh/claude-harness) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Pixel](https://github.com/naman10parikh/pixel) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Pebble](https://github.com/naman10parikh/pebble) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Turbo](https://github.com/naman10parikh/turbo) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Acorn](https://github.com/naman10parikh/acorn) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Badge](https://github.com/naman10parikh/badge) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Penny](https://github.com/naman10parikh/penny) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Rocket](https://github.com/naman10parikh/rocket) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Hush](https://github.com/naman10parikh/hush) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Canary](https://github.com/naman10parikh/canary) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Tally](https://github.com/naman10parikh/tally) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Pigeon](https://github.com/naman10parikh/pigeon) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Bee](https://github.com/naman10parikh/bee) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Shelf](https://github.com/naman10parikh/shelf) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
-| [Echo](https://github.com/naman10parikh/echo) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Truffle](https://github.com/naman10parikh/truffle) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Stamp](https://github.com/naman10parikh/stamp) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Parrot](https://github.com/naman10parikh/parrot) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Awesome A2A Servers](https://github.com/naman10parikh/awesome-a2a-servers) | · | · | · | · | · | · | · | · | ✅ | ✅ | · | · | 🟡 |
-| [Svgforge](https://github.com/naman10parikh/svgforge) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Fleet Audit](https://github.com/naman10parikh/fleet-audit) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Agent Entity Checklist](https://github.com/naman10parikh/agent-entity) | · | ✅ | · | · | · | · | · | · | ✅ | ✅ | · | · | 🟡 |
+| [Pixel](https://github.com/naman10parikh/pixel) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Pebble](https://github.com/naman10parikh/pebble) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Turbo](https://github.com/naman10parikh/turbo) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [Acorn](https://github.com/naman10parikh/acorn) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Badge](https://github.com/naman10parikh/badge) | ❌ failing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Penny](https://github.com/naman10parikh/penny) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [Rocket](https://github.com/naman10parikh/rocket) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Hush](https://github.com/naman10parikh/hush) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Canary](https://github.com/naman10parikh/canary) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Tally](https://github.com/naman10parikh/tally) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [Pigeon](https://github.com/naman10parikh/pigeon) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [Bee](https://github.com/naman10parikh/bee) | ❌ failing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Shelf](https://github.com/naman10parikh/shelf) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
+| [Echo](https://github.com/naman10parikh/echo) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Truffle](https://github.com/naman10parikh/truffle) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Stamp](https://github.com/naman10parikh/stamp) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [Parrot](https://github.com/naman10parikh/parrot) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Awesome A2A Servers](https://github.com/naman10parikh/awesome-a2a-servers) | ✅ passing | · | · | · | · | · | · | · | ✅ | ✅ | · | · | 🟡 |
+| [Svgforge](https://github.com/naman10parikh/svgforge) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Fleet Audit](https://github.com/naman10parikh/fleet-audit) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Agent Entity Checklist](https://github.com/naman10parikh/agent-entity) | ✅ passing | ✅ | · | · | · | · | · | · | ✅ | ✅ | · | · | 🟡 |
 
 Checks is the latest GitHub Actions result on each project's default branch, read daily. Each grade was set by running the project's own tests and evals; self-improvement is the level Darwin's checker verifies (✅ a weekly loop opens a proposal for a person, 🟡 evals gate every change). ✅ real and tested · 🟡 partial, with the reason in the project's README · · not graded yet
 

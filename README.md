@@ -133,11 +133,11 @@ Each project below owns one part of an agent's harness, or of the product around
 | [Hooksmith](https://github.com/naman10parikh/hooksmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentCast](https://github.com/naman10parikh/agentcast) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Plugsmith](https://github.com/naman10parikh/plugsmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Armory](https://github.com/naman10parikh/armory) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
+| [Armory](https://github.com/naman10parikh/armory) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
 | [AgentGrid](https://github.com/naman10parikh/agentgrid) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentSwarm](https://github.com/naman10parikh/agentswarm) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentBench](https://github.com/naman10parikh/agentbench) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [AgentMoney](https://github.com/naman10parikh/agentmoney) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [AgentMoney](https://github.com/naman10parikh/agentmoney) | ❌ failing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Sandforge](https://github.com/naman10parikh/sandforge) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Claude Harness](https://github.com/naman10parikh/claude-harness) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Pixel](https://github.com/naman10parikh/pixel) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |

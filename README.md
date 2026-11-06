@@ -132,9 +132,9 @@ Each project below owns one part of an agent's harness, or of the product around
 | [Agent Booster](https://github.com/naman10parikh/agent-booster) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Hooksmith](https://github.com/naman10parikh/hooksmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentCast](https://github.com/naman10parikh/agentcast) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Plugsmith](https://github.com/naman10parikh/plugsmith) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Armory](https://github.com/naman10parikh/armory) | · | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
-| [AgentGrid](https://github.com/naman10parikh/agentgrid) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Plugsmith](https://github.com/naman10parikh/plugsmith) | ❌ failing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Armory](https://github.com/naman10parikh/armory) | ❌ failing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ |
+| [AgentGrid](https://github.com/naman10parikh/agentgrid) | ❌ failing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentSwarm](https://github.com/naman10parikh/agentswarm) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentBench](https://github.com/naman10parikh/agentbench) | ✅ passing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [AgentMoney](https://github.com/naman10parikh/agentmoney) | ❌ failing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
